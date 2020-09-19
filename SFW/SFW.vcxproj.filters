@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SFWidgets">
+      <UniqueIdentifier>{b7d6cf23-40e7-478a-8d20-b0b4436b1e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFWidgets\Sources">
+      <UniqueIdentifier>{71c36584-7ca7-4f56-8546-31fcd07aa29f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFWidgets\Headers">
+      <UniqueIdentifier>{4001705b-cc8e-4263-82cc-d45a15cb3918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFCore">
+      <UniqueIdentifier>{c5b77b58-8026-412d-a1d8-e980eec14c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFCore\Headers">
+      <UniqueIdentifier>{24001c40-93ab-4ead-95a0-7ab41586beb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFCore\Sources">
+      <UniqueIdentifier>{d7fd5250-99d3-474e-8682-3fcf573ec40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFGui">
+      <UniqueIdentifier>{73bca375-7e26-4d00-a3f3-0ef21b8141ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFGui\Headers">
+      <UniqueIdentifier>{6908c7cb-4e97-46d9-bcae-6b156727ce32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFGui\Sources">
+      <UniqueIdentifier>{79845343-7ef7-42fd-8917-4634d012bfd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SFCheckBox.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFComboBox.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFEditBox.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFListBox.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMessageBox.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFPushButton.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFRadioButton.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFWidget.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFWindow.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFFile.h">
+      <Filter>SFCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFApplication.h">
+      <Filter>SFCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFProcess.h">
+      <Filter>SFCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFFileDialog.h">
+      <Filter>SFGui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFGroupBox.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFProgressBar.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFTextBlock.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFWidgets.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMenu.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMenuItem.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window1.h" />
+    <ClInclude Include="SFEvent.h">
+      <Filter>SFCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFColor.h">
+      <Filter>SFGui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFFileInfo.h">
+      <Filter>SFCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFVector.h">
+      <Filter>SFCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SFTextEdit.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window1Form.h" />
+    <ClInclude Include="SFSlider.h">
+      <Filter>SFWidgets\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SFCheckBox.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFComboBox.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFEditBox.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFListBox.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMessageBox.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFPushButton.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFRadioButton.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFWidget.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFWindow.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SFFile.cpp">
+      <Filter>SFCore\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFApplication.cpp">
+      <Filter>SFCore\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFProcess.cpp">
+      <Filter>SFCore\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFFileDialog.cpp">
+      <Filter>SFGui\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFGroupBox.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFProgressBar.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFTextBlock.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMenu.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMenuItem.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Window1.cpp" />
+    <ClCompile Include="SFEvent.cpp">
+      <Filter>SFCore\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFFileInfo.cpp">
+      <Filter>SFCore\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFTextEdit.cpp">
+      <Filter>SFWidgets\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
